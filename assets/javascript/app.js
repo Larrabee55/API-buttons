@@ -19,7 +19,7 @@ function displayGif() {
       // for loop for results
       for (var i = 0; i < results.length; i++) {
         // Creating a paragraph tag with the result item's rating
-        var p = $("<p>").text("Rating: " + results[i].rating);
+        var p = $("<p class='text-white'>").text("Rating: " + results[i].rating);
 
         // Creating and storing an image tag
         var heroImage = $("<img>");
